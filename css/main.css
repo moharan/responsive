@@ -1,0 +1,93 @@
+.block-height {
+	height: 100px;
+}
+
+@media only screen {
+	body {
+		background-color: black;
+	}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 499px) {
+	.first {
+		background-color: purple;	
+	}
+	.second {
+		background-color: yellow;
+	}
+	.third {
+		background-color: green;
+	}
+	.fourth {
+		background-color: gray;
+	}
+	.fifth {
+		background-color: blue;
+	}
+	.sixth {
+		background-color: orange;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+	.first {
+		background-color: #333;	
+	}
+	.second {
+		background-color: #999;
+	}
+	.third {
+		background-color: #ccc;
+	}
+	.fourth {
+		background-color: #fff;
+	}
+	.fifth {
+		background-color: #333;
+	}
+	.sixth {
+		background-color: #999;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+	.first {
+		background-color: green;	
+	}
+	.second {
+		background-color: yellow;
+	}
+	.third {
+		background-color: green;
+	}
+	.fourth {
+		background-color: yellow;
+	}
+	.fifth {
+		background-color: green;
+	}
+	.sixth {
+		background-color: yellow;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.first {
+		background-color: purple;	
+	}
+	.second {
+		background-color: pink;
+	}
+	.third {
+		background-color: purple;
+	}
+	.fourth {
+		background-color: pink;
+	}
+	.fifth {
+		background-color: purple;
+	}
+	.sixth {
+		background-color: pink;
+	}
+}
